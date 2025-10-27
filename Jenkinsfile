@@ -7,7 +7,7 @@ Pipeline{
                 }
                 stage('Run extract.py'){
                     steps{
-                        bat "python extract.py"
+                        bat "C:\\Users\\Roshan Rathod\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe extract.py"
                     }
                 }
 
